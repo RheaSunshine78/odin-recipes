@@ -4,13 +4,41 @@
     font-family: Verdana, Arial, sans-serif;
 }
 
+.main-title {
+    font-size: 50px;
+    color: #87809F;
+}
+
+.main-index {
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.main-title, .main-index {
+    text-align: center;
+    font-weight: bold;
+}
 h1 {
     font-size: 40px;
     padding-left: 40px;
-    color: white;
+    color: #87809F;
+    font-weight: bold;
 }
 
 li {
     font-weight: 600;
     padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-right: 40px;
+}
+
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
 }
